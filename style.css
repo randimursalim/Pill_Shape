@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font: 3rem/1 "Protest Riot", sans-serif;
+  background-color: #6a4a3c;
+}
+
+div {
+  padding: 15px 30px;
+  border: 3px solid #ece5ce;
+  border-radius: calc(infinity * 1px);
+  color: #fff;
+  background-color: #53777a;
+  box-shadow: 0 0 10px #0009 0 0 120px #fff9;
+}
+
+.neon-text {
+  color: #53777a; /* Warna teks */
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff,
+    0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff,
+    0 0 150px #00ffff; /* Efek bayangan teks */
+}
+
+#neon-background {
+  background-color: #53777a; /* Warna latar belakang */
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff,
+    0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff,
+    0 0 150px #00ffff; /* Efek bayangan latar belakang */
+}
